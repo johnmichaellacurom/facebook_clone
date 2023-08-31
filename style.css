@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', 'Arial','sans-serif';
+	cursor: pointer;
+}
+:root{
+	--primary-color:#1877F2;
+}
+body{
+	height: 100vh;
+	background-color: #FFFFFF;
+}
+.container{
+	display: block;
+	text-align: center;
+}
+.top{
+	display: block;
+}
+.title{
+	color: var(--primary-color);
+	font-size: 25px;
+	margin: 10px;
+}
+.input{
+	color:#8D7D75;
+	background-color: rgb(245,246,247);
+	border: none;
+	padding: 10px;
+	margin: 3px;
+	width: 410px;
+	font-size: 15px;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 1px #c4c4c4;
+	outline: none;
+	cursor: text;
+}
+.input:focus{
+	outline: 0.5px solid #464646;
+}
+.input-pass{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.passowrd-input{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 410px;
+	background-color: blue;
+}
+.btn-login{
+	outline: none;
+	background-color: var(--primary-color);
+	color: white;
+	margin-top: 8px;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0;
+	padding: 9px;
+	cursor: default;
+}
+.forgot{
+	color: #216FDB;
+	font-size: 16px;
+	margin: 8px auto;
+}
+.or{
+	display: inline-block;
+	width: 410px;
+	text-align: center;
+	position: relative;
+}
+.p::before, .p::after{
+	content: '';
+	width: 180px;
+	height: 1px;
+	background-color:#d3d4d5;
+	position: absolute;
+	top: 50%;
+}
+.p::before{
+	left: 0;
+}
+.p::after{
+	right: 0;
+}
+.p p{
+	color: black;
+	font-size: 15px;
+}
+.p{
+	margin: 10px auto;
+}
+.btn-create-account{
+	border: none;
+	outline: none;
+	background-color: #00A400;
+	color: white;
+	font-weight: bold;
+	font-size:13px;
+	padding: 9px 15px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	margin: 10px auto;
+}
+.bottom{
+	display: block;
+	margin: 7em auto;
+}
+.languages{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 2.5em;
+}
+.languages span{
+	color: #90949C;
+	font-weight: 500;
+	font-size: 12px;
+}
+.languages .current{
+	font-weight: bold;
+}
+.languages .add{
+	outline: 1.7px solid #90949C;
+	padding: 0 5px 2px;
+	font-weight: bold;
+	border-radius: 2px;
+	margin: 2px auto;
+	font-size: 17px;
+}
+.about-facebook{
+	display: block;
+	margin:10px;
+}
+.about-facebook .about{
+	display: inline-flex;
+	color: #8A8D94;
+	font-size: 10px;
+}
+.about span{
+	margin:0 5px;
+}
+.inc{
+	color: #808080;
+	font-size: 13px;
+	margin: 8px auto;
+}
